@@ -54,5 +54,5 @@ function automaticSlide() {
     }
     slides[automaticIndex - 1].style.display = "block";
     dots[automaticIndex - 1].className += " active"
-    setTimeout(automaticSlide, 2000);
+    setTimeout(automaticSlide, 5000);
 }
