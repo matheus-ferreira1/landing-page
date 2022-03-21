@@ -14,8 +14,10 @@
 
 	<!-- HTML shiv -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js" integrity="sha512-ueNXF8tuPFVg1phQMcmpRunNtnVseyjeP1kVdA9YdVoRjB4ePFTS6Pg5+j5VVcOhaYYOiYdKAO+jVtrIOrhkjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+	<!-- Meu CSS -->
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<!-- Meu script -->
+	<script src="script.js" defer></script>
 
 	<title>Meditarô | Tarot Terapêutico e Meditação Guiada</title>
 </head>
@@ -62,9 +64,56 @@
 
 		<main>
 			
-			<div class="carrossel" style="border: 1px solid red">
-				carrossel
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 4</div>
+					<img src="imagens/carro1.jpg" style="width: 100%;">
+					<div class="text">
+						<h3>Milagres acontecem quando
+							você olha para dentro
+						</h3>
+						<h5>Lorem ipsum ipsum ipsum</h5>
+						<a href="#">Saiba mais</a>
+					</div>
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 4</div>
+					<img src="imagens/carro2.png" style="width: 100%;">
+					<div class="text">
+						<h3>Tarot Terapêutico</h3>
+						<h5>Consultas com perguntas ou sem perguntas</h5>
+						<a href="#">Saiba mais</a>
+					</div>
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 4</div>
+					<img src="imagens/carro3.jpg" style="width: 100%;">
+					<div class="text">
+						<h3>Meditação Guiada com o Tarot</h3>
+						<h5>Consulta + Áudio de Meditação</h5>
+						<a href="#">Saiba mais</a>
+					</div>
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext">4 / 4</div>
+					<img src="imagens/carro4.jpg" style="width: 100%;">
+					<div class="text">
+						<h3>Aula e Imersão com o Tarot</h3>
+						<h5>Para leituras pessoais e/ou autoconhecimento</h5>
+						<a href="#">Saiba mais</a>
+					</div>
+				</div>
+				<a class="prev" onclick="changeSlides(-1)">&#10094;</a>
+				<a class="next" onclick="changeSlides(1)">&#10095;</a>
+				<div class="dots">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+				</div>
 			</div>
+
+
 
 			<div class="intro">
 				<div class="intro-texto">
